@@ -8,7 +8,7 @@ import javax.inject.Inject
 class DataSourceImpl @Inject constructor(
     private val apiService: ApiService
 ): NewsDataSource {
-    override fun getNewsHeadlines(country: String): Response<NewsResponse> {
+    override suspend fun getNewsHeadlines(country: String): Response<NewsResponse> {
         return apiService.getNewsHeadline(country)
     }
 }

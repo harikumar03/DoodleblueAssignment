@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DoodleblueAssignment</string>
+    <string name="tech">Tech</string>
+    <string name="sports">Sports</string>
+    <string name="fitness">Fitness</string>
+    <string name="fashion">Fashion</string>
+    <string name="local">Local</string>
 </resources>

@@ -71,6 +71,7 @@ dependencies {
 
     //Dagger-Hilt
     implementation(libs.dagger.hilt)
+    implementation(libs.hilt.navigation)
     ksp(libs.hilt.compiler)
 
     //Navigation Compose
