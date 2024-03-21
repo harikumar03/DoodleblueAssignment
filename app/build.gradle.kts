@@ -88,4 +88,7 @@ dependencies {
     //Coroutines
     implementation(libs.coroutines)
     implementation(libs.coroutinesCore)
+
+    //Coil
+    implementation(libs.coil)
 }

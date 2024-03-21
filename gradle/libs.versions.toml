@@ -19,6 +19,7 @@ moshi = "1.13.0"
 moshiConvertor = "2.9.0"
 loggingInterceptor = "4.8.1"
 coroutines = "1.7.3"
+coil="2.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -47,6 +48,7 @@ moshiConvertor = {group="com.squareup.retrofit2", name ="converter-moshi", versi
 loggingInterceptor = {group="com.squareup.okhttp3", name ="logging-interceptor", version.ref="loggingInterceptor"}
 coroutines = {group="org.jetbrains.kotlinx", name="kotlinx-coroutines-android",version.ref="coroutines"}
 coroutinesCore = {group="org.jetbrains.kotlinx", name="kotlinx-coroutines-core",version.ref="coroutines"}
+coil = {group="io.coil-kt", name="coil-compose",version.ref="coil"}
 
 
 [plugins]

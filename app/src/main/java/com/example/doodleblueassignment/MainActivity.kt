@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.doodleblueassignment.ui.navigation.AppNavigationGraph
+import com.example.doodleblueassignment.ui.screens.HomeScreen
 import com.example.doodleblueassignment.ui.theme.DoodleblueAssignmentTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             DoodleblueAssignmentTheme {
-                NewsApp()
+                HomeScreen()
             }
         }
     }
